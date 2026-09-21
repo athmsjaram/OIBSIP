@@ -1,57 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Temperature Converter</title>
+    <title>Athmaja | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="container">
+    <!-- Navigation -->
+    <nav>
+        <h2>Athmaja.</h2>
 
-        <h1>Temperature Converter</h1>
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
 
-        <p>Convert Celsius, Fahrenheit and Kelvin</p>
 
-        <label>Enter Temperature</label>
+    <!-- Home -->
+    <section id="home" class="hero">
 
-        <input type="number" id="temperature" placeholder="Enter temperature">
+        <div>
+            <p>Hello, I'm</p>
 
-        <label>Select Unit</label>
+            <h1>Athmaja Ram</h1>
 
-        <select id="unit">
-            <option value="celsius">Celsius (°C)</option>
-            <option value="fahrenheit">Fahrenheit (°F)</option>
-            <option value="kelvin">Kelvin (K)</option>
-        </select>
+            <h2>B.Tech CSE – Data Science Student</h2>
 
-        <button onclick="convertTemperature()">
-            Convert
-        </button>
+            <p>
+                I am interested in programming, web development,
+                data science and technology.
+            </p>
 
-        <p id="error"></p>
+            <a href="#projects" class="button">
+                View My Projects
+            </a>
+        </div>
 
-        <div class="results">
+        <div class="profile">
+            👩🏻‍💻
+        </div>
 
-            <h2>Result</h2>
+    </section>
 
-            <p>Celsius: <span id="celsiusResult">--</span></p>
 
-            <p>Fahrenheit: <span id="fahrenheitResult">--</span></p>
+    <!-- About -->
+    <section id="about">
 
-            <p>Kelvin: <span id="kelvinResult">--</span></p>
+        <h2>About Me</h2>
+
+        <p>
+            I am a Computer Science and Data Science student
+            passionate about learning programming, web development
+            and data science. I enjoy building projects and
+            improving my technical and problem-solving skills.
+        </p>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skills">
+
+            <div>Python</div>
+            <div>C Programming</div>
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+            <div>Data Science</div>
+            <div>Git & GitHub</div>
+            <div>Problem Solving</div>
 
         </div>
 
-    </div>
+    </section>
 
-    <script src="script.js"></script>
+
+    <!-- Projects -->
+    <section id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="projects">
+
+            <div class="project-card">
+
+                <h3>automatic rain detecting to protect cloths</h3>
+
+                <p>
+                    A project that helps to dry cloth and protect from rain by detecting rain automatically and closing the  roof of cloths.
+                </p>
+
+        
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>Temperature Converter</h3>
+
+                <p>
+                    A web application that converts temperatures
+                    between Celsius, Fahrenheit and Kelvin.
+                </p>
+
+            
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>Email: athmsjaram30@gmail.com</p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/athmsjaram">My GitHub</a>
+        </p>
+
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/athmaja-ram-876618304">My LinkedIn</a>
+        </p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 Athmaja Ram. All Rights Reserved.</p>
+
+    </footer>
 
 </body>
 </html>
