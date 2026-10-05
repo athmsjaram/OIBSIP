@@ -64,6 +64,42 @@ Petal length and petal width were found to be highly useful features for disting
 
 The project demonstrates how machine learning can be used to classify Iris flowers based on their physical measurements. The best-performing model was selected based on its evaluation results.
 
+
+
+## Task 2 - Unemployment Analysis with Python
+
+### Objective
+
+To perform exploratory data analysis on unemployment data in India
+and identify regional and temporal trends, including the impact of
+the COVID-19 pandemic.
+
+### Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Google Colab
+
+### Analysis Performed
+
+- Data loading and inspection
+- Missing value checking
+- Data cleaning and type conversion
+- Region-wise average unemployment analysis
+- Month-wise unemployment trends
+- Top 10 states with highest average unemployment
+- Time-series analysis
+- Correlation heatmap
+- Pre-COVID and post-COVID comparison
+
+### Results
+
+The analysis helps identify differences in unemployment rates
+between regions and changes in unemployment over time, including
+the effect of the COVID-19 period.
 ## Author
 
 B.Tech CSE (Data Science) Student
