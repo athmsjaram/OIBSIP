@@ -100,6 +100,31 @@ the COVID-19 pandemic.
 The analysis helps identify differences in unemployment rates
 between regions and changes in unemployment over time, including
 the effect of the COVID-19 period.
+
+
+
+## Task 3 – Car Price Prediction with Machine Learning
+
+Built a machine learning regression model to predict used car selling prices.
+
+**Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+
+**Models:**
+- Linear Regression
+- Random Forest Regression
+
+**Evaluation:** MAE, RMSE, R² Score
+
+**Key steps:** Data Cleaning, Feature Engineering, EDA, One-Hot Encoding, Model Training, Model Evaluation, and Feature Importance.
+
+**Notebook:** `Task_3_Car_Price_Prediction.ipynb`
 ## Author
 
 B.Tech CSE (Data Science) Student
+Athmaja Ram
+
+
+
+
+
+
