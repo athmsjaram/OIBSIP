@@ -102,22 +102,60 @@ between regions and changes in unemployment over time, including
 the effect of the COVID-19 period.
 
 
+# Internship Tasks
 
 ## Task 3 – Car Price Prediction with Machine Learning
 
-Built a machine learning regression model to predict used car selling prices.
+### Objective
+Build a machine learning regression model to predict the selling price of used cars based on features such as car age, present price, mileage, fuel type, transmission, seller type, and owner.
 
-**Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+### Dataset
+Vehicle Dataset from CarDekho.
 
-**Models:**
+### Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook / Google Colab
+
+### Work Done
+- Data cleaning
+- Removed duplicate values
+- Checked and handled missing values
+- Feature engineering
+- Calculated car age
+- Extracted car brand
+- Exploratory Data Analysis (EDA)
+- Selling price distribution
+- Price vs fuel type visualization
+- Price vs car age scatter plot
+- Correlation heatmap
+- One-Hot Encoding
+- Train-test split
 - Linear Regression
 - Random Forest Regression
+- Model evaluation using MAE, RMSE and R² score
+- Feature importance analysis
 
-**Evaluation:** MAE, RMSE, R² Score
+### Machine Learning Models
+1. Linear Regression
+2. Random Forest Regression
 
-**Key steps:** Data Cleaning, Feature Engineering, EDA, One-Hot Encoding, Model Training, Model Evaluation, and Feature Importance.
+### Evaluation Metrics
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- R² Score
 
-**Notebook:** `Task_3_Car_Price_Prediction.ipynb`
+### Conclusion
+The regression models were trained to predict used car selling prices. The models were compared using MAE, RMSE, and R² score, and the better-performing model was identified based on its prediction performance.
+
+### Files
+- `Task_3_Car_Price_Prediction.ipynb` – Jupyter/Google Colab notebook containing the complete analysis and machine learning implementation.
+
+- 
 ## Author
 
 B.Tech CSE (Data Science) Student
